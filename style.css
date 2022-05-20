@@ -4,6 +4,7 @@
  */
 * {
   box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -18,16 +19,71 @@
   margin: 40px auto 0 auto;
 }
 
+
+
+
 /** 
  * Just some styling to make the card visible.
  * Feel free to change this!
  */
 
 .card {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(245, 245, 245);
   stroke-width: 1mm;
-  stroke:rgb(0, 0, 0);
-  color: rgb(255, 0, 0);
+  stroke:rgb(14, 7, 7);
+  color: rgb(0, 0, 0);
   border-radius: 5px;
+  /*padding: 15px;*/
+  
+}
+
+.card-top{
+  background-image: url("assets/2244-0015401-0.jpg");
+  background-repeat: no-repeat;
+  background-size: 115%;
+  height:22%;
+  width:100%;
+  
+}
+
+.card-bottom{
   padding: 15px;
+  height: 79%;
+  
+}
+
+.logo-zoo{
+box-sizing: border-box;
+margin-left: 70%;
+margin-top: 8%;
+width: 80px;
+   
+}
+.titel {
+  padding-bottom: 10px ;
+}
+
+h1 {
+  
+  font-size: 25px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+  font-size: 12px;
+}
+table{
+table-layout: auto;
+width: 100%;
+padding-top: 10px;
+font-weight: 400;
+font-size: 12px;
+border-collapse: collapse;
+border: 0.5px solid rgb(0, 0, 0);
+border-spacing: 2px;
+}
+.bold {
+  font-weight: 700;
 }
